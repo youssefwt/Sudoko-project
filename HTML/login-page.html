@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started</title>
+    <link rel="stylesheet" href="../CSS/loginstyle.css">
+    <script src="../Scripts/validate.js"></script>
+</head>
+<body>
+    <div class="welcome">
+        <h1>Welcome to Soduku for Kids!</h1>
+    </div>
+    <form class="start-box" action="choosingPictuers.Html" method="get" onsubmit="makeCookie()">
+        <h1>Get Started</h1>
+        <input type="text" name="" id="username" placeholder="John Doe">
+        <span id="usernameerror">Your name should be at least 4 characters and at most 20 characters and contain only characters</span>
+        <h3>Select a level</h3>
+        <select name="levels" id="levels">
+            <option value="1">Level 1</option>
+            <option value="2">Level 2</option>
+          </select>
+        <input type="submit" value="Start Playing!">
+    </form>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose theme</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS/choosingPictuers.css">
+</head>
+<body>
+    <div class="theme-container">
+        <div class="space theme">
+            <div class="column">
+                <div class="rockets pic-group">
+                <table>
+                    <tr>
+                        <td><div class="image-div"><img src="../images/space_theme/rocket_ships/1.png" class="image"></div></td>
+                        <td><div class="image-div"><img src="../images/space_theme/rocket_ships/2.png" class="image"></div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="image-div"><img src="../images/space_theme/rocket_ships/3.png" class="image"></div></td>
+                        <td><div class="image-div"><img src="../images/space_theme/rocket_ships/4.png" class="image"></div></td>
+                    </tr>
+                </table>
+                </div>
+                <input type='radio' value='rocket_ships' name='radio' id='rocket_ships'/>
+                <label for='rocket_ships'>Rocket ships</label>
+                <!-- <input class="theme-btn" type="button" value="Rocket ships" id="rocket_ships" > -->
+            </div>
+
+            <div class="column">
+                <div class="aliens pic-group">
+                    <table>
+                        <tr>
+                            <td><div class="image-div"><img src="../images/space_theme/aliens/1.png" class="image"></div></td>
+                            <td><div class="image-div"><img src="../images/space_theme/aliens/2.png" class="image"></div></td>
+                        </tr>
+                        <tr>
+                            <td><div class="image-div"><img src="../images/space_theme/aliens/3.png" class="image"></div></td>
+                            <td><div class="image-div"><img src="../images/space_theme/aliens/4.png" class="image"></div></td>
+                        </tr>
+                    </table>
+                </div>
+                <input type='radio' value='aliens' name='radio' id='aliens' />
+                <label for='aliens'>Aliens</label>
+                <!-- <input class="theme-btn" type="button" value="Aliens" id="aliens" > -->
+            </div>
+            <p class="theme-name space-style">SPACE</p>
+        </div>
+        <div class="ocean theme">
+            <div class="column">
+                <div class="fish pic-group">
+                    <table>
+                        <tr>
+                            <td><div class="image-div"><img src="../images/ocean_theme/fish/1.png" class="image"></div></td>
+                            <td><div class="image-div"><img src="../images/ocean_theme/fish/2.png" class="image"></div></td>
+                        </tr>
+                        <tr>
+                            <td><div class="image-div"><img src="../images/ocean_theme/fish/3.png" class="image"></div></td>
+                            <td><div class="image-div"><img src="../images/ocean_theme/fish/4.png" class="image"></div></td>
+                        </tr>
+                    </table>
+                </div>
+                <input type='radio' value='Fish' name='radio' id='Fish'/>
+                <label for='Fish'>Fish</label>
+                <!-- <input class="theme-btn" type="button" value="Fish" id="Fish" > -->
+            </div>
+            <div class="column">
+                <div class="boats pic-group">
+                    <table>
+                        <tr>
+                            <td><div class="image-div"><img src="../images/ocean_theme/boats/1.png" class="image"></div></td>
+                            <td><div class="image-div"><img src="../images/ocean_theme/boats/2.png" class="image"></div></td>
+                        </tr>
+                        <tr>
+                            <td><div class="image-div"><img src="../images/ocean_theme/boats/3.png" class="image"></div></td>
+                            <td><div class="image-div"><img src="../images/ocean_theme/boats/4.png" class="image"></div></td>
+                        </tr>
+                    </table>
+                </div>
+                <input type='radio' value='boats' name='radio' id='boats'/>
+                <label for='boats'>Boats</label>
+                <!-- <input class="theme-btn" type="button" value="Boats" id="boats" > -->
+            </div>
+            <p class="theme-name ocean-style">OCEAN</p>
+        </div>
+    </div>
+    <div class="btn-container">
+        <a id="anchor" href="#">
+            <button id="continue">CONTINUE</button>
+        </a>
+    </div>
+
+    
+    <script src="../Scripts/choosingPictuers.js" type="module" onclick=""></script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/mainbg.jpg");
+}
+
+.theme-container{
+    position: relative;
+    width:100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background: cadetblue; */
+}
+
+.theme{
+    width: 45%;
+    height:90%;
+    background: cyan;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 7px solid #0e87f8;
+}
+.space{
+    background-image: url("../images/space_theme/spacebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ocean{
+    background-image: url("../images/ocean_theme/ocean.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.column{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pic-group{
+    width: 100%;
+    height: 55%;
+    margin-top: 20%;
+}
+
+input {
+    /* visibility:collapse; */
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    width: 145px;
+    height: 43px;
+    font-size: 22px;
+    font-weight:bolder;
+    margin-top: 30px;
+    border-radius: 7px;
+    border: 5px solid #0e87f8;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px;
+    background: white;
+    text-align: center;
+}
+
+label:hover{
+    background:rgb(180, 180, 250);
+}
+
+input:checked + label {
+    width: 160px;
+    height: 60px;
+    font-size: 27px;
+    color: white;
+    background:rgb(46, 46, 156);
+}
+
+/* .theme-btn{
+    width: 145px;
+    height: 43px;
+    font-size: 22px;
+    font-weight:bolder;
+    margin-top: 30px;
+    border-radius: 7px;
+    border: 5px solid #0e87f8;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px;
+}
+
+.theme-btn:hover{
+    cursor: pointer;
+    width: 160px;
+    height: 60px;
+    font-size: 27px;
+    background:rgb(10, 237, 253);
+}
+
+
+.theme-btn:checked{
+    cursor: pointer;
+    width: 160px;
+    height: 60px;
+    font-size: 27px;
+    color: white;
+    background:rgb(46, 46, 156)
+} */
+
+.theme-name{
+    position: absolute;
+    bottom: 10%;
+    border-radius: 10px;
+    font-weight:900;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-family: "Oswald", sans-serif;
+    
+}
+
+.space-style {
+    color: white;
+    text-shadow: 1px 0 white;
+}
+
+
+.ocean-style {
+    color: rgb(7, 7, 85);
+    text-shadow: 1px 0 rgb(7, 7, 85);
+}
+
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height: 25vh;
+    /* background: palevioletred; */
+}
+
+#continue{
+    padding: 5px 25px;
+    padding: auto;
+    font-size: 40px;
+    border-radius: 15px;
+    color:white;
+    background-color: #02103d;
+    border: 5px solid #0e87f8;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 2px;
+}
+
+#continue:hover{
+    cursor: pointer;
+    background: rgb(46, 46, 156)
+}
+
+#continue:active{
+    background: rgb(0, 60, 255);
+    padding: 2px 22px;
+}
+
+table{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    z-index: 5;
+}
+
+tr{
+    width: 100%;
+    height: 50%;
+}
+
+td{
+    border: #0e87f8 5px solid;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+}
+
+
+.image-div{
+    height: 100%;
+    width: 100%;
+}
+
+.image{
+    height: 123px;
+    width: 100%;
+    object-fit:fill;
+    display: block;
+}

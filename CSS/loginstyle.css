@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../images/mainbg.jpg);
+}
+.welcome{
+    background: url(../images/fireworks.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    padding: 40px;
+    top: 10%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.welcome h1{
+    text-align: center;
+}
+.start-box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 255, 255, 0.7) ;
+    border-radius: 50px;
+    text-align: center;
+}
+.start-box h1{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold 500;
+}
+.start-box h3{
+    text-transform: capitalize;
+    font-weight: bold 100;
+}
+.start-box span{
+    display: none;
+}
+.start-box input[type = "text"], .start-box select{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25ms;
+}
+.start-box option{
+    cursor: pointer;
+    color:black;
+    text-align: center;
+}
+.start-box input[type = "text"]:focus, .start-box select:focus{
+    width: 250px;
+    border-color: orange;
+}
+.start-box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid green;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25ms;
+    cursor: pointer;
+}
+.start-box input[type = "submit"]:hover{
+    background: green;
+}
+.before-you-start-box{
+    width: 800px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 255, 255, 0.7) ;
+    border-radius: 50px;
+    text-align: center;
+}
+.before-you-start-box p,.before-you-start-box li, .before-you-start-box ul{
+    text-align: left;
+    font-weight: normal;
+}
+.before-you-start-box a{
+    text-decoration: none;
+}
+.before-you-start-box input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid green;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25ms;
+    cursor: pointer;
+    display: none;
+}
+.before-you-start-box input[type = "submit"]:hover{
+    background: green;
+}
+.before-you-start-box input, .before-you-start-box label{
+    text-align: left;
+    font-size: smaller;
+    margin: 2px;
+    float: left;
+}
